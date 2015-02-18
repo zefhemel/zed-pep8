@@ -1,0 +1,20 @@
+{
+    modes: {
+        python: {
+            commands: {
+                "Tools:Python:PEP8": {
+                    inputs: {
+                        text: true,
+                    },
+                    scriptUrl: "./check.js",
+                    requiredCapabilities: {
+                        run: true
+                    }
+                }
+            },
+            handlers: {
+                check: ["Tools:Python:PEP8"]
+            }
+        }
+    }
+}

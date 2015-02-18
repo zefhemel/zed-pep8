@@ -1,0 +1,9 @@
+{
+    "name": "Python PEP8",
+    "uri": "gh:zefhemel/zed-pep8",
+    "version": "1.0",
+    "description": "Adds inline PEP8 annotations to Python mode",
+    "files": [
+        "check.js"
+    ]
+}
